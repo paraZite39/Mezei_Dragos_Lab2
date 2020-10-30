@@ -12,18 +12,18 @@
             <RowDefinition Height="7*"/>
         </Grid.RowDefinitions>
         <Label x:Name="lblTitle" Content="Doughnuts - Bake &amp; Sale" HorizontalAlignment="Center" Margin="0,46,0,0" FontSize="24" FontWeight="Bold" Height="42" VerticalAlignment="Top"/>
-        <GroupBox x:Name="gbRaised" Margin="214,109,432,116" FontWeight="Normal">
+        <GroupBox x:Name="gbRaised" Margin="214,109,414,116" FontWeight="Normal">
             <GroupBox.Header>
                 <TextBlock FontWeight="Bold">Raised</TextBlock>
             </GroupBox.Header>
             <Canvas>
-                <Label x:Name="lblGlazedRaised" Content="Glazed" Canvas.Top="10" FontWeight="Normal" Canvas.Left="5"/>
-                <Label x:Name="lblSugarRaised" Content="Sugar" Canvas.Top="44" FontWeight="Normal" Canvas.Left="5"/>
-                <TextBox x:Name="txtGlazedRaised" Text="0" TextWrapping="Wrap" Width="77" Canvas.Left="56" Canvas.Top="14" IsReadOnly="True"/>
-                <TextBox x:Name="txtSugarRaised" Text="0" TextWrapping="Wrap" Width="77" Canvas.Left="56" Canvas.Top="48" IsReadOnly="True"/>
+                <Label x:Name="lblGlazedRaised" Content="Glazed" Canvas.Top="10" FontWeight="Normal" Canvas.Left="5" HorizontalAlignment="Center"/>
+                <Label x:Name="lblSugarRaised" Content="Sugar" Canvas.Top="44" FontWeight="Normal" Canvas.Left="5" HorizontalAlignment="Center"/>
+                <TextBox x:Name="txtGlazedRaised" Text="0" TextWrapping="Wrap" Width="77" Canvas.Left="56" Canvas.Top="14" IsReadOnly="True" HorizontalAlignment="Center"/>
+                <TextBox x:Name="txtSugarRaised" Text="0" TextWrapping="Wrap" Width="77" Canvas.Left="56" Canvas.Top="48" IsReadOnly="True" HorizontalAlignment="Center"/>
             </Canvas>
         </GroupBox>
-        <GroupBox x:Name="gbFilled" Margin="420,93,210,100" FontWeight="Normal">
+        <GroupBox x:Name="gbFilled" Margin="420,93,195,100" FontWeight="Normal">
             <GroupBox.Header>
                 <TextBlock FontWeight = "Bold"> Filled</TextBlock>
             </GroupBox.Header>
@@ -36,7 +36,7 @@
                 <TextBox x:Name="txtVanillaFilled" Text="0" TextWrapping="Wrap" Width="68" Canvas.Left="80" IsReadOnly="True" Canvas.Top="88"/>
             </Canvas>
         </GroupBox>
-        <GroupBox x:Name="gbSale" Margin="176,246,167,53" FontWeight="Bold" Grid.RowSpan="2">
+        <GroupBox x:Name="gbSale" Margin="176,246,148,53" FontWeight="Bold" Grid.RowSpan="2">
             <GroupBox.Header>
                 <TextBlock FontWeight="Bold">Current Sale</TextBlock>
             </GroupBox.Header>
